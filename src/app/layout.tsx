@@ -68,6 +68,19 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/favicon.ico" />
+        
+        {/* Vercel 배포 URL용 추가 메타 태그 */}
+        <meta property="og:url" content="https://webinarlanding.vercel.app" />
+        <meta property="og:image" content="https://webinarlanding.vercel.app/og-image.png" />
+        <meta property="og:title" content="GEN AI KOREA | 대한민국 대표 생성형 AI 커뮤니티" />
+        <meta property="og:description" content="온라인, 오프라인 AI 교육과 맞춤형 AI 교육 및 개발 의뢰를 제공하는 대한민국 대표 생성형 AI 커뮤니티" />
+        <meta name="twitter:image" content="https://webinarlanding.vercel.app/og-image.png" />
+        
+        {/* www 서브도메인용 추가 메타 태그 */}
+        <meta property="og:see_also" content="https://www.ai-c.kr" />
+        <link rel="canonical" href="https://ai-c.kr" />
+        <meta property="og:url" content="https://www.ai-c.kr" />
+        <meta property="og:image" content="https://www.ai-c.kr/og-image.png" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
