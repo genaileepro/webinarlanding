@@ -24,10 +24,9 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <FormCard
             title="온라인 6주 교육"
-            description="온라인으로 진행되는 6주 과정입니다. AI 기초부터 실전 프로젝트까지 체계적으로 학습합니다."
+            description="온라인으로 진행되는 6주 과정입니다. 기초부터 실전 프로젝트까지 체계적으로 학습합니다."
             price="₩500,000"
             formUrl={forms.online}
-            isOnline={true}
           />
           
           <FormCard
